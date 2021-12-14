@@ -66,7 +66,8 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url("https://cdn.jsdelivr.net/gh/palakurthiprashanth/prashanth-palakurthi@master/src/wall-and-laptop-background.jpg") no-repeat;
+  background: url('https://cdn.jsdelivr.net/gh/palakurthiprashanth/prashanth-palakurthi@master/src/wall-and-laptop-background.jpg')
+    no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -132,7 +133,7 @@ nav ul li {
   z-index: 1;
 }
 
-@media (max-width: 768px) {
+@media(max-width: 768px) {
   .particles-canvas {
     display: none;
   }
