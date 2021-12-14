@@ -8,7 +8,11 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <div className="logo">PRASHANTH</div>
+            <img
+              className="logo"
+              src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/554/6504934554_2062006c-ba48-4df8-b467-09acb16f7b8a.png?cb=1639456624"
+              alt="logo..."
+            />
           </a>
           <button
             className="navbar-toggler"
