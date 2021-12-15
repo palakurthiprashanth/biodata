@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
+import AboutMe from './components/AboutMe/AboutMe';
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
       />
       <Navbar />
       <Header />
+      <AboutMe />
     </div>
   );
 }
