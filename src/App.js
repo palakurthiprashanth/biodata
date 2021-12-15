@@ -6,6 +6,7 @@ import './style.css';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
+import Services from './components/Services/Services';
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
       <Navbar />
       <Header />
       <AboutMe />
+      <Services />
     </div>
   );
 }
