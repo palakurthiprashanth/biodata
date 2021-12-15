@@ -5,7 +5,13 @@ const AboutMe = () => {
     <div className="container py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
-          <div className="photo-wrap mb-5"></div>
+          <div className="photo-wrap mb-5">
+            <img
+              className="profile-img"
+              src="https://cdn.jsdelivr.net/gh/palakurthiprashanth/prashanth-palakurthi@master/src/me.jpeg"
+              alt="author..."
+            />
+          </div>
         </div>
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
