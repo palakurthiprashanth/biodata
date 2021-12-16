@@ -44,42 +44,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-            <div className="d-flex justify-content-center">
-              <FacebookShareButton
-                url={'https://www.youtube.com/8020coding'}
-                quote={'FullStack Developer'}
-                hashtag="#javascript"
-              >
-                <FacebookIcon className="mx-3" size={36} />
-              </FacebookShareButton>
-              <TwitterShareButton
-                url={'https://www.youtube.com/8020coding'}
-                quote={'FullStack Developer'}
-                hashtag="#javascript"
-              >
-                <TwitterIcon className="mx-3" size={36} />
-              </TwitterShareButton>
-              <RedditShareButton
-                url={'https://www.youtube.com/8020coding'}
-                quote={'FullStack Developer'}
-                hashtag="#javascript"
-              >
-                <RedditIcon className="mx-3" size={36} />
-              </RedditShareButton>
-              <LinkedinShareButton
-                url={'https://www.youtube.com/8020coding'}
-                quote={'FullStack Developer'}
-                hashtag="#javascript"
-              >
-                <LinkedinIcon className="mx-3" size={36} />
-              </LinkedinShareButton>
-            </div>
-            <p className="pt-3 text-center">
-              Copyright&copy;
-              {new Date().getFullYear()}&nbsp;New Horizon | All Rights Reserved
-            </p>
-          </div>
         </div>
       </div>
     </div>
