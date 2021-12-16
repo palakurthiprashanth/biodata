@@ -9,7 +9,6 @@ const Resume = () => {
     <div className="resume-container screen-container">
       <ScreenHeading title={'Resume'} subHeading={'My Formal Bio Details'} />
       <div className="resume-content">
-        Header
         <div className="resume-card">
           <div className="resume-bullets">
             <div className="bullet-container">

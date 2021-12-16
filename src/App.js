@@ -8,6 +8,7 @@ import PortfolioContextProvider from './context/PortfolioContext';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
+import AboutMeDetails from './components/AboutMeDetails/AboutMeDetails';
 import Resume from './components/Resume/Resume';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
@@ -40,7 +41,7 @@ export default function App() {
       <PortfolioContextProvider>
         <Navbar />
         <Header />
-        <AboutMe />
+        <AboutMeDetails />
         <Resume />
         <Services />
 

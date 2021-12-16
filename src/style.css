@@ -13,6 +13,7 @@
   --primary-transparent-black: rgba(0, 0, 0, 0.7);
   --primary-green: green;
   --dark-orange: #ff5823;
+  --dark-blue: #1f2235;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
 
 nav {
   z-index: 2;
+  background-color: var(--dark-blue);
 }
 
 .logo {
@@ -228,7 +230,7 @@ nav ul li {
 
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
-  background: var(--primary-dark);
+  background: var(--dark-blue);
   padding: 3rem 0;
 }
 

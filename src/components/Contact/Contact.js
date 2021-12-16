@@ -41,11 +41,7 @@ const Contacts = () => {
   return (
     <div className="contacts">
       <div className="text-center">
-        <ScreenHeading
-          title={'Contact Me'}
-          subHeading={'Get in touch with me ?'}
-        />
-        {/**<h1>contact me</h1>**/}
+        <h1>contact me</h1>
         <p>
           Please fill out the form and describe you project needs and I'll
           contact you as soon as possible.
