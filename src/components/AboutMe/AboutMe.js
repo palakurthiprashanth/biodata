@@ -1,8 +1,10 @@
 import React from 'react';
+import ScreenHeading from '../commons/ScreenHeading/ScreenHeading';
 
 const AboutMe = () => {
   return (
     <div className="container py-5">
+      <ScreenHeading title={'About Me'} subHeading={'Why Choose Me ?'} />
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           <div className="photo-wrap mb-5">
@@ -14,7 +16,6 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-          <h1 className="about-heading">about me</h1>
           <p>
             Hello! I am Andrew. I have been developing websites for over 5
             years. I'm Full-Stack Web Developer. Technologies I use is

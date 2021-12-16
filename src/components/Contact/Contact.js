@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
+import ScreenHeading from '../commons/ScreenHeading/ScreenHeading';
 
 const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState('');
@@ -11,7 +12,6 @@ const Contacts = () => {
   const userID = 'user_oJPtG09EKeapx7a2OR6mg';
 
   const onSubmit = (data, r) => {
-    debugger;
     sendEmail(
       serviceID,
       templateID,
@@ -41,7 +41,11 @@ const Contacts = () => {
   return (
     <div className="contacts">
       <div className="text-center">
-        <h1>contact me</h1>
+        <ScreenHeading
+          title={'Contact Me'}
+          subHeading={'Get in touch with me ?'}
+        />
+        {/**<h1>contact me</h1>**/}
         <p>
           Please fill out the form and describe you project needs and I'll
           contact you as soon as possible.
