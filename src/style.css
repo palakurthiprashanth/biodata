@@ -213,7 +213,7 @@ nav ul li {
 
 .services .box {
   height: 16rem;
-  border-bottom: 0.3125rem solid var(--primary-orange);
+  border-bottom: 0.3125rem solid var(--dark-blue);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
