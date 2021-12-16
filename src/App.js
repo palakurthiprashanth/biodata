@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
 import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
 
 export default function App() {
   return (
@@ -36,6 +37,8 @@ export default function App() {
       <Header />
       <AboutMe />
       <Services />
+
+      <Contact />
     </div>
   );
 }
