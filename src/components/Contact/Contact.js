@@ -8,9 +8,10 @@ const Contacts = () => {
 
   const serviceID = 'service_ID';
   const templateID = 'template_ID';
-  const userID = 'user_RXtQk9xbkcuxeI8Wr9FD4';
+  const userID = 'user_oJPtG09EKeapx7a2OR6mg';
 
   const onSubmit = (data, r) => {
+    debugger;
     sendEmail(
       serviceID,
       templateID,
@@ -57,8 +58,7 @@ const Contacts = () => {
                   type="text"
                   className="form-control"
                   placeholder="Name"
-                  name="name"
-                  ref={register({
+                  {...register('name', {
                     required: 'Please enter your name',
                     maxLength: {
                       value: 20,
@@ -70,7 +70,7 @@ const Contacts = () => {
                 <div className="line"></div>
               </div>
               <span className="error-message">
-                {errors.name && errors.name.message}
+                {errors?.name && errors.name.message}
               </span>
               {/* PHONE INPUT */}
               <div className="text-center">
@@ -79,14 +79,14 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Phone Number"
                   name="phone"
-                  ref={register({
+                  {...register('phone', {
                     required: 'Please add your phone number',
                   })}
                 />
                 <div className="line"></div>
               </div>
               <span className="error-message">
-                {errors.phone && errors.phone.message}
+                {errors?.phone && errors.phone.message}
               </span>
               {/* EMAIL INPUT */}
               <div className="text-center">
@@ -95,7 +95,7 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Email"
                   name="email"
-                  ref={register({
+                  {...register('email', {
                     required: 'Please provide you email',
                     pattern: {
                       value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -106,7 +106,7 @@ const Contacts = () => {
                 <div className="line"></div>
               </div>
               <span className="error-message">
-                {errors.email && errors.email.message}
+                {errors?.email && errors.email.message}
               </span>
               {/* SUBJECT INPUT */}
               <div className="text-center">
@@ -115,14 +115,14 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Subject"
                   name="subject"
-                  ref={register({
+                  {...register('subject', {
                     required: 'OOPS, you forget to add the subject.',
                   })}
                 />
                 <div className="line"></div>
               </div>
               <span className="error-message">
-                {errors.subject && errors.subject.message}
+                {errors?.subject && errors.subject.message}
               </span>
             </div>
             <div className="col-md-6 col-xs-12">
@@ -133,14 +133,14 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Please describe shortly you project..."
                   name="description"
-                  ref={register({
+                  {...register('description', {
                     required: 'Please describe shortly your project needs...',
                   })}
                 ></textarea>
                 <div className="line"></div>
               </div>
               <span className="error-message">
-                {errors.description && errors.description.message}
+                {errors?.description && errors.description.message}
               </span>
               <button className="btn-main-offer contact-btn" type="submit">
                 contact me
