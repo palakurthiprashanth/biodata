@@ -12,6 +12,7 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0, 0, 0, 0.7);
   --primary-green: green;
+  --dark-orange: #ff5823;
 }
 
 body {
