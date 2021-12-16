@@ -6,7 +6,7 @@ import ScreenHeading from '../commons/ScreenHeading/ScreenHeading';
 
 const Resume = () => {
   return (
-    <div className="resume-container screen-container">
+    <div className="resume-container screen-container" id="biodata">
       <ScreenHeading title={'Resume'} subHeading={'My Formal Bio Details'} />
       <div className="resume-content">
         <div className="resume-card">

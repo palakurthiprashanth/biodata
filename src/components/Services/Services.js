@@ -5,7 +5,7 @@ import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
 import ScreenHeading from '../commons/ScreenHeading/ScreenHeading';
 const Services = () => {
   return (
-    <>
+    <div id="service">
       <ScreenHeading title={'Projects'} subHeading={'My Personal Projects'} />
       <div className="services">
         {/**<h1 className="py-5">my services</h1>**/}
@@ -79,7 +79,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
