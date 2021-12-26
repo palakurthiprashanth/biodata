@@ -2,6 +2,7 @@
   "name": "react",
   "version": "0.0.0",
   "private": true,
+  "homepage": "http://palakurthiprashanth.github.io/c", 
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.3.0-beta3",
     "@fortawesome/free-brands-svg-icons": "5.15.4",
@@ -20,13 +21,16 @@
     "react-share": "4.4.0",
     "react-typed": "1.2.0",
     "tsparticles": "1.37.5",
-    "tty": "^1.0.1"
+    "tty": "^1.0.1",
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "react-scripts": "latest"
